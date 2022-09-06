@@ -14,18 +14,42 @@
     <main>
         <div id="first-row-wrapper">
             <div class="first-row__add-section">
-                <h1>Add</h1>
+                <div class="first-row__input-wrapper">
+                    <h1>Add</h1>
+                    <input id="add_input_1" type="text" placeholder="Enter Number One">
+                    <input id="add_input_2" type="text" placeholder="Enter Number Two">
+                    <p id="result-add"></p>
+                    <input type="submit" value="Add" onclick="add()">
+                </div>
             </div>
             <div class="first-row__sub-section">
-                <h1>Substract</h1>
+                <div class="first-row__input-wrapper">
+                    <h1>Subtract</h1>
+                    <input id="subtract_input_1" type="text" placeholder="Enter Number One">
+                    <input id="subtract_input_2" type="text" placeholder="Enter Number Two">
+                    <p id="result-sub"></p>
+                    <input type="submit" value="Subtract" onclick="subtract()">
+                </div>
             </div>
         </div>
         <div id="second-row-wrapper">
             <div class="second-row__multi-section">
-                <h1>Muliplication</h1>
+                <div class="second-row__input-wrapper">
+                    <h1>Muliplication</h1>
+                    <input id="multiply-input_1" type="text" placeholder="Enter Number One">
+                    <input id="multiply-input_2" type="text" placeholder="Enter Number Two">
+                    <p id="result-mul"></p>
+                    <input type="submit" value="Multiply" onclick="multiply()">
+                </div>
             </div>
             <div class="second-row__divid-section">
-                <h1>Division</h1>
+                <div class="second-row__input-wrapper">
+                    <h1>Division</h1>
+                    <input id="divide_input_1" type="text" placeholder="Enter Number One">
+                    <input id="divide_input_2" type="text" placeholder="Enter Number Two">
+                    <p id="result-divide"></p>
+                    <input type="submit" value="Divide" onclick="divide()">
+                </div>
             </div>
         </div>
     </main>
